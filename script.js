@@ -4,13 +4,19 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
-
+const myFavoriteSong = "Mary Had a Little Lamb"
+console.log(`my favorite song is ${myFavoriteSong}`)
 /*
  * Prompt 2:
  *
  * Declare 3 variables using each of let, const, and var, then console.log each of them
  */
-
+let Name = "Margaret"
+const birthMonth = "September"
+var city = "New York"
+console.log(Name)
+console.log(birthMonth)
+console.log(city)
 /*
  * Prompt 3:
  *
@@ -21,7 +27,12 @@
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
-
+let Age = 23
+console.log(Age + 10)
+console.log(Age - 10)
+console.log(Age * 10)
+console.log(Age / 7)
+console.log(Age % 7)
 /*
  * Prompt 4:
  *
@@ -29,12 +40,16 @@
  * name. Create a variable called lastName and assign it to a string of your
  * last name.
  *
+ 
  * Create a variable called fullName and use addition to combine your firstName
  * and lastName variables.
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
 
-
+const firstName = "Margaret"
+const lastName = "Camilletti"
+const fullName = `${firstName} + ${lastName}`
+console.log(`hello my name is ${fullname}`)
 /* Arrays */
 
 
@@ -55,6 +70,10 @@ let array3 = [
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
 
+
+console.log(array1[2])
+console.log(array2[1][1]
+console.log(array3[1][1][1][0]
 /*
  * Prompt 2:
  *
@@ -62,6 +81,8 @@ let array3 = [
  */
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
+
+console.log(array4[array4.length-2])
 
 /*
  * Prompt 3:
@@ -73,6 +94,19 @@ let thom = ['Thom', 1000, 'Christchurch'];
 let karolin = ['Karolin', 16, 'New York'];
 let kristyn = ['Kristyn', 5, 'Pittsburgh'];
 let cathleen = ['Cathleen', 186, 'New York'];
+
+
+thom.shift()
+thom.unshift('Tom')
+console.log(thom)
+karolin[1]++
+console.log(karolin)
+cathleen[2] = "Gotham City"
+console.log(cathleen)
+kristyn.pop()
+kristyn.push("Oakland")
+console.log(kristyn)
+
 
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
